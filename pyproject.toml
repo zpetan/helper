@@ -1,0 +1,15 @@
+[project]
+name = "helper"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Pepe Tan", email = "62174470+zpetan@users.noreply.github.com"},
+]
+dependencies = []
+requires-python = ">=3.12"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
