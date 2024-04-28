@@ -5,7 +5,9 @@ description = ""
 authors = [
     {name = "Pepe Tan", email = "62174470+zpetan@users.noreply.github.com"},
 ]
-dependencies = []
+dependencies = [
+    "typer>=0.12.3",
+]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "MIT"}
@@ -13,3 +15,7 @@ license = {text = "MIT"}
 [build-system]
 requires = ["setuptools>=61", "wheel"]
 build-backend = "setuptools.build_meta"
+
+
+[project.scripts]
+helper = "helper.cli.cli:app"
