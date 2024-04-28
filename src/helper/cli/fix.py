@@ -1,7 +1,6 @@
-import typer
 import os
 import subprocess
-from getpass import getpass
+import typer
 
 app = typer.Typer()
 
